@@ -1,0 +1,326 @@
+* { padding: 0; margin: 0; border: 0; }
+*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+:focus, :active { outline: none; }
+a:focus, a:active { outline: none; }
+nav, footer, header, aside { display: block; }
+html, body { height: 100%; width: 100%; font-size: 100%; line-height: 1; font-size: 14px; -ms-text-size-adjust: 100%; -moz-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+input, button, textarea { font-family: lato; }
+input::-ms-clear { display: none; }
+button { cursor: pointer; }
+button::-moz-focus-inner { padding: 0; border: 0; }
+a, a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+ul li { list-style: none; }
+img { vertical-align: top; }
+h1, h2, h3, h4, h5, h6 { font-size:inherit ; font-weight:inherit; }
+
+
+.header{margin: 0 auto;
+  background-image: url("../img/bg_2.png");
+  max-width: 1600px;
+  height: 800px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+h1,h2{font-family: Lato;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #353738;
+  text-align: center;}
+ p{
+  font-family: Lato;
+font-size: 18px;
+line-height: 34px;
+font-weight: 400;
+color: #848789;
+ } 
+.menu {
+  margin: 0 auto;
+  max-width: 618px;
+}
+.menu_list {
+  display: flex;
+  justify-content: center;
+  gap: 63px;
+  align-items:center ;
+}
+.menu_list li a{
+  font-family: Lato;
+font-size: 13px;
+line-height: 1.2;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+color: #4d4959;
+}
+.menu_list li a:hover{
+  color: #0377ba;
+  cursor: pointer;
+}
+.about {max-width: 1600px;
+  margin: 0 auto;
+}
+.about p{
+  padding: 35px 241px 142px 241px;
+}
+.about img {
+  display: block;
+  margin: 117px auto 34px auto;
+}
+.work {max-width: 1600px;
+margin: 0 auto;}
+.bike1 {display: flex;
+}
+.bag_icon {width: 1067px;
+  height: 600px;
+  background-image: url("../img/bike1_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text_infobike1 img{
+  width: 41px;
+  height: 30px;
+  MARGIN-LEFT: 174px;
+  margin-bottom: 31px;
+}
+.text_infobike1 { 
+  margin: 70px 67px auto;
+}
+.imgbike {
+  display: flex;
+    flex-direction: column-reverse;
+}
+.right{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 533px;
+}
+
+.bike02{
+
+}
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+}
+.text img{
+  padding: 61px 251px 29px 251px;
+}
+.text p {
+  margin: 26px 68px 110px 68px;
+}
+.text {
+  width: 534px;
+height: 410px;
+}
+.image_2bike {
+  width: 534px;
+height: 200px;
+
+}
+.bg_image {
+  background-image: url("../img/rectangle_1_copy_5_61.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1067px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contb3 {
+  height: 600px;
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+}
+.bike3_img {
+  background-image: url("../img/rectangle_1_copy_6_63.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 1 33.333%;
+}
+.bike3_txt {flex: 0 1 33.333%;
+}
+.bike3_right {
+  background-image: url("../img/rectangle_1_copy_6_64.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 0 1 33.333%;
+}
+.bike3_txt p{
+  padding: 26px 68px 29.5px 69px ;
+}
+.ico{
+  margin: 58px 254px 20px 257px;
+}
+.twit{
+  padding-top: 124px;
+  margin: 0 auto;
+  width: 1600px;
+height: 469px;
+background-color: #f7f7f7;
+text-align: center;
+}
+.twit h3 {
+  font-family: Lato;
+font-size: 18px;
+line-height: 1.2;
+font-weight: 700;
+letter-spacing: 0.1em;
+color: #353738;
+margin-top: 37px;
+margin-bottom: 27px;
+}
+#par {
+  font-family: Lato;
+font-size: 24px;
+line-height: 34px;
+font-weight: 400;
+font-style: italic;
+color: #848789;
+margin-left: 301px;
+margin-right: 263px;
+}
+.shop{
+  
+}
+.sub_shop {
+  margin: 0 auto;
+  width: 1600px;
+  display: flex;
+}
+.bl1 {
+}
+.sub_bl01 {
+  display: flex;
+}
+.bl2 {
+  position: relative;
+  display: flex;
+}
+.bl3 {
+}
+.sub_bl02 {display: flex;
+}
+.discovery {
+  margin: 0 auto;
+  width: 1600px;
+  height: 200px;
+  background-color: #282f35;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.discovery button{
+  width: 300px;
+height: 50px;
+background-color: rgba(255,255,255,0.0);
+border: 1px solid rgba(255,255,255,0.49);
+font-family: Lato;
+font-size: 14px;
+line-height: 1.2;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+color: #ffffff;
+}
+.discovery button:hover{
+  transition-duration: 0.1s;
+  top: 5px;
+  border: 3px solid rgba(164, 163, 163, 0.49);
+  color: rgb(81, 81, 81);
+box-shadow:10px 5px 10px 10px #1c1d1e;}
+  
+
+ .mailing{
+  height: 469px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mailing img{
+  margin: 109px 0 39px 0;
+}
+.mailing p{
+  margin-bottom:  35px;
+}
+.email input:first-child{
+  width: 400px;
+height: 69px;
+background-color: #ffffff;
+border: 1px solid #d3d7d9;
+font-family: Lato;
+font-size: 20px;
+line-height: 24px;
+font-weight: 400;
+font-style: italic;
+color: #929292;
+transition-duration: 1s;
+}
+.sub{
+  width: 126px;
+height: 69px;
+background-color: #64c29e;
+font-family: Lato;
+font-size: 24px;
+line-height: 24px;
+font-weight: 300;
+color: #ffffff;
+}
+.email input:first-child:hover{
+  border: 1px solid #373839;
+  background-color: #ece2e2;
+  box-shadow:5px 5px 0 0 #b7bdc2;
+}
+.email input:last-child:hover{
+  background-color: #08a16788;
+  color: #c8cfd2;
+  transition-duration: 0.5s;
+  box-shadow:5px 5px 0 0 #284138;
+  top: 10px;
+}
+.email input:last-child:active{
+  top: 5px;
+  background-color: #30313188;
+  color: #1c1d1e;}
+
+  .footer {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1600px;
+    height: 250px;
+background-color: #f7f7f7;
+  }
+  .kek h5{  
+    font-family: Lato;
+font-size: 16px;
+line-height: 17px;
+font-weight: 700;
+color: #848789;
+  }
+  .social {
+    padding-right: 200px;
+  }
+  .social img{
+    margin-left: 15px;
+  }
+  .credit p{
+    float: left;
+    margin-right: 9px;
+  }
+  @media screen {
+    
+  }
